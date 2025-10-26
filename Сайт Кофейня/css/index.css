@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+}
+
+body {
+    background: url("../img/3.jpg");
+}
+
+.container {
+    background: white;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+/* Комментарий */
+
+.menu a {
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 100px;
+    transition: all 0.5s ease;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.menu a:hover {
+    color: brown;
+    box-shadow: 0px 10px 15px #00000088;
+    transform: scale(1.1);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.main{
+    background: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 280px 50px;
+    margin-top: 20px;
+}
+
+.main h1{
+    font-size: 40px;
+    color: white;
+    padding: 20px 0px;
+}
+
+.main a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background: brown;
+    padding: 15px 20px;
+    border-radius: 100px;
+}
+
+.main a:hover{
+    background: darkred;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;;
+    text-align: center;
+    border-top: 3px solid brown;
+    border-bottom: 3px solid brown;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.card {
+    width: 300px;
+    box-shadow: 0px 0px 10px #00000088;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.card p {
+    text-align: center;
+    padding: 10px;
+}
+
+.tovars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
