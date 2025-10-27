@@ -75,6 +75,7 @@ border-bottom-right-radius: 20px;
     background: linear-gradient(90deg, #f4a261, #fdb653);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    box-shadow: 0 10px 15px #00000088;
 }
 
 .main h1 {
@@ -96,7 +97,7 @@ border-bottom-right-radius: 20px;
     display: block;
     margin: auto;
     position: relative;
-    top: 220px;
+    top: 70px;
     z-index: 100;
 }
 
