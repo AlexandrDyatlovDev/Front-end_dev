@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gidole", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* background: #bbbbbb;
+ background: radial-gradient(circle, #bbbbbb, #d4b896)
+ background: radial-gradient(circle, #a1a0a0, #dcdcdc);
+ background: radial-gradient(circle, #f4a261, #ffb347);
+ */
+body {
+
+    background: radial-gradient(circle, #e8f5e8, #c8e6c9);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    background: linear-gradient(90deg, #f4a261, #fdb653);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid darkred;
+
+}
+
+.menu img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu .links a {
+    padding: 10px;
+}
+
+.menu .mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu .mode img {
+    margin: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.menu a:hover {
+    color: #4f709b;
+    font-weight: bold;
+}
+
+
+
+/*
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+*/
+
+.main {
+    background: linear-gradient(90deg, #f4a261, #fdb653);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 70px;
+    padding-bottom: 20px
+}
+
+.main p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.main img {
+    width: 800px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+
