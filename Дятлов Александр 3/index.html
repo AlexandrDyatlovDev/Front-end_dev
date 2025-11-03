@@ -12,9 +12,9 @@
 <div class="container">
     <div class="menu">
         <div class="links">
-            <a href="#">Товары</a>
-            <a href="#">О нас</a>
-            <a href="#">Контакты</a>
+            <a href="#tovar">Товары</a>
+            <a href="#about">О нас</a>
+            <a href="#feedback">Контакты</a>
         </div>
         <a href="index.html"><img src="img/logo.png" alt=""></a>
         <div class="mode">
@@ -28,16 +28,16 @@
         <p>Широкий выбор велосипедов для любых целей и любого уровня подготовки.</p>
         <img src="img/main.png" alt="">
     </div>
-    <div class="tovar">
+    <div class="tovar" id="tovar">
         <h2>Популярные товары</h2>
         <div class="filters">
             <a class="filter filter1">все</a>
-            <a class="filter filter1">городские</a>
-            <a class="filter filter1">спортивные</a>
-            <a class="filter filter1">электро</a>
+            <a class="filter filter2">городские</a>
+            <a class="filter filter3">спортивные</a>
+            <a class="filter filter4">электро</a>
         </div>
         <div class="tovars">
-            <div class="card">
+            <div class="card sport">
                 <img src="img/1.jpg" alt="">
                 <h4>Горный велосипед</h4>
                 <p class="description">Модель:<br>"Stels Navigator 650" или аналог.<br><br>
@@ -45,7 +45,7 @@
                 </p>
                 <p class="price">10 000 руб.</p>
             </div>
-            <div class="card">
+            <div class="card sport">
                 <img src="img/2.jpg" alt="">
                 <h4>Шоссейный велосипед</h4>
                 <p class="description">Модель:<br>"Format 1311" или "Trek Domane AL 2".<br><br>
@@ -53,7 +53,7 @@
                 </p>
                 <p class="price">12 000 руб.</p>
             </div>
-            <div class="card">
+            <div class="card city">
                 <img src="img/3.jpg" alt="">
                 <h4>Городской велосипед</h4>
                 <p class="description">Модель:<br>"Forward Utrecht" или "Cube Travel".<br><br>
@@ -61,7 +61,7 @@
                 </p>
                 <p class="price">13 000 руб.</p>
             </div>
-            <div class="card">
+            <div class="card city">
                 <img src="img/4.jpg" alt="">
                 <h4>Складной велосипед</h4>
                 <p class="description">Модель:<br>"Strida" или "Comfort Folding Bike".<br><br>
@@ -69,7 +69,7 @@
                 </p>
                 <p class="price">11 000 руб.</p>
             </div>
-            <div class="card">
+            <div class="card electro">
                 <img src="img/5.jpg" alt="">
                 <h4>Электровелосипед</h4>
                 <p class="description">Модель:<br>"Xiaomi Himo C20" или более продвинутые бренды.<br><br>
@@ -77,7 +77,7 @@
                 </p>
                 <p class="price">15 000 руб.</p>
             </div>
-            <div class="card">
+            <div class="card city">
                 <img src="img/6.jpg" alt="">
                 <h4>Детский велосипед</h4>
                 <p class="description">Модель:<br>"Jaguar MS-054" (12-16 дюймов).<br><br>
@@ -85,7 +85,7 @@
                 </p>
                 <p class="price">8 000 руб.</p>
             </div>
-            <div class="card">
+            <div class="card city electro">
                 <img src="img/7.jpg" alt="">
                 <h4>Универсальный гибридный велосипед</h4>
                 <p class="description">Модель:<br>"Author Compact" или "Giant Escape".<br><br>
@@ -93,7 +93,7 @@
                 </p>
                 <p class="price">14 000 руб.</p>
             </div>
-            <div class="card">
+            <div class="card city">
                 <img src="img/8.jpg" alt="">
                 <h4>Женский велосипед</h4>
                 <p class="description">Модель:<br>Городская или гибридная модель с заниженной рамой.<br><br>
@@ -103,31 +103,31 @@
             </div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <h2>О нас</h2>
         <div class="link">
-            <a href="#">
+            <a href="https://t.me/c/3090816881/" target="_blank">
                 <div>telegram: @Bicycle63</div>
             </a>
         </div>
         <div class="carusel">
             <div>
                 <img src="img/1.jpg" alt="">
-                <img src="img/2.jpg" alt="">
+                <img src="img/6.jpg" alt="">
                 <img src="img/3.jpg" alt="">
                 <img src="img/4.jpg" alt="">
                 <img src="img/1.jpg" alt="">
-                <img src="img/2.jpg" alt="">
+                <img src="img/6.jpg" alt="">
                 <img src="img/3.jpg" alt="">
                 <img src="img/4.jpg" alt="">
                 <img src="img/1.jpg" alt="">
-                <img src="img/2.jpg" alt="">
+                <img src="img/6.jpg" alt="">
                 <img src="img/3.jpg" alt="">
                 <img src="img/4.jpg" alt="">
             </div>
         </div>
     </div>
-    <div class="feedback">
+    <div class="feedback" id="feedback">
         <h2>Заполните форму<br>и мы вам перезвоним</h2>
         <form action="#" class="form">
             <input type="text" name="name" placeholder="Имя" maxlength="50">
@@ -136,13 +136,13 @@
         </form>
         <img src="img/form.png" alt="">
     </div>
-
-
-
-
-
+    <div class="footer">
+        <p class="project">Проект: Магазин продажи велосипедов.</p>
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
+        <p class="developer">&copy; 2025 - Разработчик: Дятлов Александр.</p>
+    </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="js/index.js"></script>
-
 </body>
 </html>

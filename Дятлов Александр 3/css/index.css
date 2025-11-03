@@ -34,6 +34,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     border-bottom: 1px solid darkred;
+    box-shadow: 0 10px 15px #00000088;
 
 }
 
@@ -62,7 +63,6 @@ body {
 .menu a:hover {
     /*color: #4f709b;*/
     color: white;
-    font-weight: bold;
 }
 
 
@@ -98,7 +98,7 @@ border-bottom-right-radius: 20px;
     display: block;
     margin: auto;
     position: relative;
-    top: 100px;
+    top: 70px;
     z-index: 100;
 }
 
@@ -223,6 +223,8 @@ h2 {
 
 .about .link a:hover {
     background: #bc0025;
+    /*background: white;
+    color: #bc0025;*/
 }
 
 .about {
@@ -284,8 +286,8 @@ h2 {
 .feedback .form button {
     background: darkred;
     color: white;
-    padding: 10px 25px;
-    margin:  12px 10px 10px 10px;
+    padding: 10px 70px;
+    /*margin:  12px 10px 10px 10px;*/
     border-radius: 100px;
     cursor: pointer;
     outline: none;
@@ -299,4 +301,23 @@ h2 {
     background: #bc0025;
 }
 
+.feedback .form button, .feedback .form input {
+    width: 300px;
+    height: 50px;
+}
+
+.footer {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer img {
+    width: 50px;
+    height: auto;
+}
 
