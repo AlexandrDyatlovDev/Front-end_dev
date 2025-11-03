@@ -6,3 +6,10 @@ https://alexandrdyatlovdev.github.io/Front-end_dev/%D0%A1%D0%B0%D0%B9%D1%82%20%D
 
 https://alexandrdyatlovdev.github.io/Front-end_dev/Дятлов%20Александр%203/index.html
 https://alexandrdyatlovdev.github.io/Front-end_dev/%D0%94%D1%8F%D1%82%D0%BB%D0%BE%D0%B2%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%203/index.html
+
+
+
+https://github.com/AlexandrDyatlovDev/Front-end_dev/tree/master/%D0%94%D1%8F%D1%82%D0%BB%D0%BE%D0%B2%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%203/index.html
+https://github.com/AlexandrDyatlovDev/Front-end_dev/tree/master/%D0%94%D1%8F%D1%82%D0%BB%D0%BE%D0%B2%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%203%20v.2.0/index.html
+
+
